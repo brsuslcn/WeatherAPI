@@ -16,7 +16,7 @@ module.exports.indexPost = function(request, respond)
 
     var request = require('request');
     request(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city1}&appid=d7d83837327b8a51a8a533ff7e8548af`,
+        `HERE SPECIAL API`,
         function(error, response, body){
           let data = JSON.parse(body);
             if(response.statusCode == 200){
